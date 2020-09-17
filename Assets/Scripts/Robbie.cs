@@ -33,6 +33,8 @@ public class Robbie : MonoBehaviour
             Vector3 relativePos = transform.InverseTransformDirection(lookAtObj.position);
             if (relativePos.z < turnThreshold)
             {
+                animator.SetBool("LeftTurn", relativePos.x < 0);
+
                 animator.SetTrigger("TurnAround");
             }
         }
