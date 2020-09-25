@@ -684,5 +684,9 @@ PrefabInstance:
       propertyPath: lookAtObj
       value: 
       objectReference: {fileID: 1387574395}
+    - target: {fileID: 3248814294113616178, guid: 931bb553d514d4440b9ec8c1be60e630, type: 3}
+      propertyPath: turnThreshold
+      value: -0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 931bb553d514d4440b9ec8c1be60e630, type: 3}
