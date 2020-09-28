@@ -1082,9 +1082,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3070507296296661928}
   - component: {fileID: 8970201558758992338}
-  - component: {fileID: 3248814294113616177}
   - component: {fileID: 3248814294113616173}
-  - component: {fileID: 3248814294113616178}
+  - component: {fileID: 1150858358}
   m_Layer: 0
   m_Name: RobbieMixamo
   m_TagString: Untagged
@@ -1142,20 +1141,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!136 &3248814294113616177
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2438543835273472274}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.2
-  m_Height: 0.95
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!114 &3248814294113616173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1223,7 +1208,7 @@ MonoBehaviour:
   m_DistantDisable: 0
   m_ReferenceObject: {fileID: 0}
   m_DistanceToObject: 20
---- !u!114 &3248814294113616178
+--- !u!114 &1150858358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1238,8 +1223,7 @@ MonoBehaviour:
   isIKActive: 1
   isTurning: 0
   lookAtObj: {fileID: 0}
-  waveTime: 1
-  turnThreshold: -0.3
+  turnThreshold: -0.2
 --- !u!1 &2458813522123312872
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,8 @@
+[0928/005628.294:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(67,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(75,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0928/005628.302:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(38,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(46,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+

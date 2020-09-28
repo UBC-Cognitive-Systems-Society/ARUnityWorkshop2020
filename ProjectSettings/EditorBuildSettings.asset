@@ -8,6 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Environments/EnvironDay.unity
+    guid: 919252ef37caafb498e67122dda19a99
+  - enabled: 1
+    path: Assets/Scenes/Environments/EnvironNight.unity
+    guid: d3d7524665ff4844b9caf0f1440fc9a0
+  - enabled: 1
+    path: Assets/Scenes/Environments/EnvironRain.unity
+    guid: e5e42cfe831ea3f429e69eb0bd31e8a1
+  - enabled: 1
+    path: Assets/Scenes/Environments/EnvironSnow.unity
+    guid: ea6efee3f6b37ed40aa7d9cf9ee09594
+  - enabled: 1
+    path: Assets/Scenes/Environments/EnvironSunrise.unity
+    guid: 5eb74fcba0275a641ad2b6b7099a6fcd
+  - enabled: 1
+    path: Assets/Scenes/Environments/EnvironSunset.unity
+    guid: e468aedec266cb449b4faa70d3f86552
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 17b2b32ab87eb174ea33baf564198113, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3594623e8cdf1fa418129000ec91e0a9, type: 2}
