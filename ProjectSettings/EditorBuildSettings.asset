@@ -5,27 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environments/EnvironDay.unity
     guid: 919252ef37caafb498e67122dda19a99
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environments/EnvironNight.unity
     guid: d3d7524665ff4844b9caf0f1440fc9a0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environments/EnvironRain.unity
     guid: e5e42cfe831ea3f429e69eb0bd31e8a1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environments/EnvironSnow.unity
     guid: ea6efee3f6b37ed40aa7d9cf9ee09594
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environments/EnvironSunrise.unity
     guid: 5eb74fcba0275a641ad2b6b7099a6fcd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environments/EnvironSunset.unity
     guid: e468aedec266cb449b4faa70d3f86552
+  - enabled: 1
+    path: Assets/Scenes/SceneSelection.unity
+    guid: 95f33ad21bb984a4a8422eda1416d763
+  - enabled: 1
+    path: Assets/Scenes/AR-Vuforia.unity
+    guid: c341a6b1c7e41454c8a6761859a53c87
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: 893836116185d8540aca6f7225922acc
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b8b5008e65284bd498b9df0c3c758279, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 17b2b32ab87eb174ea33baf564198113, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3594623e8cdf1fa418129000ec91e0a9, type: 2}

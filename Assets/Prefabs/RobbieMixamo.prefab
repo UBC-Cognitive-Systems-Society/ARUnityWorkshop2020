@@ -1217,13 +1217,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2438543835273472274}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d900e27ed7286364dab09dff5382684f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c37db4604225944eacc974fcff1c89d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isIKActive: 1
-  isTurning: 0
   lookAtObj: {fileID: 0}
-  turnThreshold: -0.2
 --- !u!1 &2458813522123312872
 GameObject:
   m_ObjectHideFlags: 0
