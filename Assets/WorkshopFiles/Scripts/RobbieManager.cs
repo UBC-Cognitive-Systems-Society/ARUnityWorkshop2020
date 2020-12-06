@@ -41,30 +41,12 @@ public class RobbieManager : MonoBehaviour
 
     public void PositionRobbie(ARAnchor anchor)
     {
-        isRobbieActive = true;
-        currentAnchor = anchor;
-        robbie.transform.parent = currentAnchor.transform;
-        robbie.transform.localPosition = Vector3.zero;
-        robbie.transform.localRotation = Quaternion.identity;
-        Vector3 cameraPosition = arCamera.transform.position;
-        cameraPosition.y = robbie.transform.position.y;
-        robbie.transform.LookAt(cameraPosition);
-        robbie.SetActive(true);
-        ui.SetActive(true);
-        planeManager.SetTrackablesActive(false);
-        planeManager.enabled = false;
+        // TODO
     }
 
     public void ResetRobbie()
     {
-        robbie.SetActive(false);
-        ui.SetActive(false);
-        planeManager.enabled = true;
-        planeManager.SetTrackablesActive(true);
-        Destroy(currentAnchor);
-        currentAnchor = null;
-        robbie.transform.parent = this.transform;
-        isRobbieActive = false;
+        // TODO
     }
 }
 

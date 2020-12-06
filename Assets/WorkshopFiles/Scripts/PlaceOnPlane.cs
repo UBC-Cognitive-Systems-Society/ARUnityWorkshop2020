@@ -25,23 +25,7 @@ public class PlaceOnPlane : MonoBehaviour
             Touch touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Began)
             {
-                if (raycastManager.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
-                {
-                    ARRaycastHit hit = hits[0];
-                    Pose hitPose = hit.pose;
-                    if (hit.trackable is ARPlane plane)
-                    {
-                        ARAnchor toAttach = anchorManager.AttachAnchor(plane, hitPose);
-
-                        //Instantiate(cube, toAttach.transform);
-                        if (toAttach != null)
-                        {
-                            RobbieManager.Instance.PositionRobbie(toAttach);
-                        }
-                        
-
-                    }
-                }
+                // TODO
             }
         }
     }

@@ -52,21 +52,7 @@ public class RobbieARController : RobbieCharacterController
         {
             Touch touch = Input.GetTouch(0);
 
-            
-  
-
-            if (touch.phase == TouchPhase.Began)
-            {
-                Vector2 position = touch.position;
-                Ray ray = cam.ScreenPointToRay(touch.position);
-                if(Physics.Raycast(ray, out RaycastHit hit))
-                {
-                    if(hit.collider == controller)
-                    {
-                        StartCoroutine(TriggerWave());
-                    }
-                }
-            }
+            // TODO
         }
     }
 
