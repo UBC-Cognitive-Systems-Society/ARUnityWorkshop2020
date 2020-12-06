@@ -1,12 +1,11 @@
 # Robbie
 
-Simple sample project to test out modelling, mecanim, and AR
+Simple Workshop to take an existing unity scene and set it up for AR with AR Foundation
 
-Currently, the project involves a simple character model and a third person controller setup, as well as animations and sample scenes to test out different lighting contexts.
+[Slides are available here](https://docs.google.com/presentation/d/1xFjt73AwUZfvyaqR2_TrIIDDxAwikzvhgHcukk-zQBs/edit?usp=sharing)
 
-The project uses skyboxes from [Fantasy Skyboxes by Render Knight](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-18216) and Robbie's antenna is designed with [Dynamic Bone by Will Hong](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743) in mind.
+The workshop is desgined to be done in Unity 2020.1.15, in the scene Assets/WorkshopFiles/Scenes/__START_HERE__.unity
 
-See [here](https://unoctium1.github.io/Robbie) to preview Robbie in different lighting
+For full steps of the workshop, see [the script here](/Assets/WorkshopFiles/WorkshopSteps.md)
 
-To do:
-AR work - integrate with existing vuforia Robbie AR project
+Robbie's antenna is designed with [Dynamic Bone by Will Hong](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743) in mind, without Dynamic Bone in the project there will be missing components in the workshop scenes
